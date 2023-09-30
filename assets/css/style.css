@@ -96,7 +96,7 @@
 }
 
  .readme:hover{
-  color: #0e909e;
+  color: #19cfe3;
   background-color: white;
 }
 
@@ -116,7 +116,7 @@
 }
 
 .contactme:hover{
-  color: #0e909e;
+  color: #19cfe3;
   background-color: white;
 }
 /* main body */
@@ -384,7 +384,7 @@ h3 {
 .card li a {
   margin-right: 0;
   color: #333;
-  border-bottom: 2px solid #ffab40;
+  border-bottom: 2px solid #6ba3e3;
 }
 
 .card li a:hover {
@@ -549,7 +549,7 @@ small {
 /* main .teal-text */
 
 .teal-text {
-  color: #94BDFF !important;
+  color: #6ba3e3 !important;
 }
 
 /* .teal-text {
@@ -559,7 +559,7 @@ small {
 /* .teal */
 
 .teal {
-  background-color: #94BDFF !important;
+  background-color: #6ba3e3 !important;
 }
 
 /* .teal {
@@ -602,7 +602,7 @@ small {
     position: absolute;
   }
   nav a.button-collapse, nav a.button-collapse i {
-    color: #009688;
+    color: #077db8;
     height: 56px;
     line-height: 56px;
   }
