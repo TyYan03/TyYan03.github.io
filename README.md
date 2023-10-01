@@ -25,3 +25,9 @@ Screenshot of the home page of my new colour theme:
 <br>
 
 <h2>Activity 4</h2>
+Screenshot of repo after finishing activity 4:
+
+![image](https://github.com/TyYan03/TyYan03.github.io/assets/117669511/a47d08ad-9c50-4263-b566-548f9858a17e)
+<br>
+Screenshot of Places Travelled section of my website:
+![image](https://github.com/TyYan03/TyYan03.github.io/assets/117669511/1db66eb5-bcd7-4579-9839-a3b355c35383)
