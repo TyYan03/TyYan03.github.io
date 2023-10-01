@@ -4,8 +4,10 @@ Tyler Yan - this repo is a clone of https://github.com/varadbhogayata/varadbhoga
 <h2>Activity 1</h2>
 
 Screenshot of the beginning repo:
-![image](https://github.com/TyYan03/TyYan03.github.io/assets/117669511/ee1c6f2e-8e60-4278-91cc-3c003cd0644d)
+![image](https://github.com/TyYan03/TyYan03.github.io/assets/117669511/4c0e9fc2-5c02-4c38-872c-82409c37e431)
+![Screen Shot 2023-10-01 at 1 53 28 PM](https://github.com/TyYan03/TyYan03.github.io/assets/117669511/bcbb8d5b-fb04-44d6-b805-266d78e286a2)
 <br>
+
 <h2>Activity 2</h2>
 
 Screenshot of repo after finishing activity 2:
