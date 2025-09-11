@@ -1,0 +1,37 @@
+.layout {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  height: 100%;
+}
+
+.container {
+  margin: 2rem 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+.pageTitle {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--accent-color);
+  margin-bottom: 1rem;
+  letter-spacing: -0.03em;
+  line-height: 1.2;
+}
+
+.button {
+  padding: 0.5rem 1rem;
+  background-color: #32849dff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  margin-left: 20px;
+  vertical-align: middle;
+}
+
+.pdf {
+  border: none;
+}

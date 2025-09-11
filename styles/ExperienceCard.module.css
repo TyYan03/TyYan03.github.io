@@ -1,0 +1,142 @@
+.experienceCard {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  margin: 0 80px 0 80px;
+  padding: 30px 25px 30px 25px;
+  position: relative;
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease,
+    background-color 0.2s ease;
+  transform: scale(1);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.experienceCard:is(.expanded) {
+  cursor: default;
+}
+
+.experienceCard:not(.expanded):hover {
+  background-color: #e5e5e5;
+  transform: scale(1.01);
+}
+
+.cardHeader {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.headerMain {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-grow: 1;
+  width: 100%;
+}
+
+.workTerm {
+  font-size: 1.2rem;
+  color: #242424;
+  white-space: nowrap;
+  margin-top: 18px;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+  margin-right: 16px;
+  transition:
+    transform 0.3s ease,
+    filter 0.3s ease,
+    background-color 0.3s ease;
+}
+
+.logo:hover {
+  transform: scale(1.1);
+  filter: brightness(1.2);
+  background-color: #cfcfcf;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.companyInfo {
+  display: flex;
+  flex-direction: column;
+}
+
+.companyName {
+  font-size: 1.6rem;
+  color: var(--accent-color);
+  font-weight: 600;
+}
+
+.jobTitle {
+  font-size: 1.2rem;
+  color: #242424;
+}
+
+.closeButton {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  font-size: 1.6rem;
+  border: none;
+  background: none;
+  cursor: pointer;
+  line-height: 1;
+  color: #818181;
+  padding: 7px 18px;
+  z-index: 1;
+  transition: color 0.2s ease;
+}
+
+.closeButton:hover {
+  color: #333;
+}
+
+.cardContent {
+  max-height: 0;
+  overflow: hidden;
+  transition:
+    max-height 0.4s ease,
+    padding 0.4s ease;
+  padding: 0 0;
+}
+
+.cardContent.show {
+  max-height: 700px;
+  padding: 12px 0 0 0;
+}
+
+.cardContent ul {
+  padding-left: 25px;
+  margin: 0;
+}
+
+.cardContent li {
+  margin-bottom: 6px;
+  font-size: 0.98rem;
+  line-height: 1.4;
+  color: #242424;
+}
+
+.bar {
+  border: none;
+  height: 5px;
+  width: 100%;
+  margin: 13px 0 5px 0;
+  filter: brightness(1.15);
+}
+
+@keyframes fade-in {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.01);
+  }
+}
