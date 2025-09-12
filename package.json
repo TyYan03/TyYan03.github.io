@@ -1,5 +1,4 @@
 {
-  "homepage": "https://tyyan03.github.io",
   "name": "vscode-portfolio",
   "version": "1.0.0",
   "private": true,
@@ -9,7 +8,9 @@
     "start": "next start",
     "lint": "next lint",
     "format": "prettier --write .",
-    "deploy": "gh-pages -d build"
+    "postbuild": "touch out/.nojekyll",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages --dotfiles -d out"
   },
   "dependencies": {
     "framer-motion": "^12.23.12",

@@ -32,11 +32,6 @@ const explorerItems = [
     path: "/contact",
     icon: "/logos/css_icon.svg",
   },
-  // {
-  //   name: "github.md",
-  //   path: "/github",
-  //   icon: "/logos/markdown_icon.svg",
-  // },
   {
     name: "resume.pdf",
     path: "/resume",
