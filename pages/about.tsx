@@ -11,7 +11,7 @@ const AboutPage = () => {
           <section className={styles.section}>
             <p className={styles.paragraph}>
               I am a 4th year Computer Engineering Student at the University of
-              Toronto. I enjoy learning in a fast-paced environmnet, and I have
+              Toronto. I enjoy learning in a fast-paced environment, and I have
               been on the Dean&apos;s list every semester. I also enjoy
               problem-solving and coding, and I always strive to put 110% into
               all the work I do.
