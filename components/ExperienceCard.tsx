@@ -1,5 +1,6 @@
 import Image from "next/image";
 import React, { useState } from "react";
+import { VscGithubAlt } from "react-icons/vsc";
 
 import { Experience } from "@/types";
 
@@ -47,6 +48,21 @@ const ExperienceCard = ({ experience }: ExperienceCardProps) => {
             <div className={styles.companyName}>{experience.employer}</div>
             <div className={styles.jobTitle}>{experience.jobTitle}</div>
           </div>
+          {experience.projectpage && (
+            <div className={styles.projectLink}>
+              <h2 className={styles.projectLinkLabel}>Project GitHub</h2>
+              <a
+                href={experience.projectpage}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <VscGithubAlt
+                  className={styles.githubIcon}
+                  fill="rgb(0, 0, 0)"
+                />
+              </a>
+            </div>
+          )}
           <div className={styles.workTerm}>{experience.workTerm}</div>
         </div>
       </div>

@@ -79,6 +79,37 @@
   color: #242424;
 }
 
+.projectLink {
+  flex-direction: column;
+  margin-top: -10px;
+  text-align: center;
+}
+
+.projectLinkLabel {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+  color: #242424;
+}
+
+.githubIcon {
+  width: 40px;
+  height: 40px;
+  margin-right: 16px;
+  object-fit: contain;
+  transition:
+    transform 0.3s ease,
+    filter 0.3s ease,
+    background-color 0.3s ease;
+}
+
+.githubIcon:hover {
+  transform: scale(1.1);
+  filter: brightness(1.2);
+  background-color: #cfcfcf;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
 .closeButton {
   position: absolute;
   top: 8px;

@@ -5,6 +5,7 @@ export interface Experience {
   accomplishments: string[];
   image: string;
   link: string;
+  projectpage: null | string;
   backgroundColor: string;
   workTerm: string;
   slug: string;
@@ -13,19 +14,23 @@ export interface Experience {
 export const experiences: Experience[] = [
   {
     employer: "MannLab",
-    jobTitle: "Systems Engineer (XR Assistive Technology)",
+    jobTitle: "Systems Engineer (XR Technology)",
     description:
       "Discover creative websites and developers. A portal for you to share your projects.",
     accomplishments: [
-      "Leading a 4-person team under the supervision of Professor Steve Mann to build augmented reality glasses that provide obstacle detection and navigation support with haptic, audio, and visual feedback for visually impaired users",
-      "Developing a machine learning model to predict collisions, detect and track obstacles, and deliver directional feedback within 200ms to guide users safely and efficiently through their environment",
-      "Coordinating with accessibility service organizations and experts to align system features with real-world user needs",
-      "Designing a system to provide real-time conversational assistance by using facial recognition to identify the conversation partner and retrieving their previous interactions",
+      "Led a 4-person team under the supervision of Professor Steve Mann to develop a real-time XR navigation system for visually impaired users using C# and Unity on Meta Quest 3, earning a Certificate of Recognition as a top research project",
+      "Achieved a 91.7% collision avoidance rate by developing on-device machine learning models for real-time obstacle detection (80 classes, 12.5 m range) and safe path segmentation (10 surface types)",
+      "Delivered ≤200 ms end-to-end latency across perception, processing, and feedback by designing a fully on-device pipeline with no cloud dependency",
+      "Engineered a multimodal feedback system (visual overlays, spatial audio, and directional haptics) to convey obstacle distance, position, and navigable paths in real time",
+      "Built a hands-free navigation system integrating voice input, GPS, and Google Maps API to provide accurate turn-by-turn directions with automatic rerouting (100% instruction accuracy)",
+      "Validated system performance through real-world indoor and outdoor testing with static and dynamic obstacles, achieving 91% detection accuracy and 86% segmentation accuracy",
+      "Collaborated with accessibility experts and service organizations to align system design with real-world needs of visually impaired users",
     ],
     image: "/experience/mannlab/mannlab-logo.png",
     link: "https://mannlab.com",
+    projectpage: "https://github.com/TyYan03/XR-Seeing-Aid",
     backgroundColor: "#f8e3cdff",
-    workTerm: "May 2025 - Present",
+    workTerm: "May 2025 - April 2026",
     slug: "mannlab",
   },
   {
@@ -43,6 +48,7 @@ export const experiences: Experience[] = [
     ],
     image: "/experience/epic/epic-logo.png",
     link: "https://epicblockchain.io",
+    projectpage: null,
     backgroundColor: "#b6eaf0ff",
     workTerm: "May 2024 - Aug 2025",
     slug: "epicblockchaintechnologies",
@@ -62,6 +68,7 @@ export const experiences: Experience[] = [
     ],
     image: "/experience/newcollege/newcollege-logo.webp",
     link: "https://www.newcollege.utoronto.ca",
+    projectpage: null,
     backgroundColor: "#afe9b3ff",
     workTerm: "Aug 2023 - Present",
     slug: "newcollege",

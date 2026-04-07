@@ -25,6 +25,7 @@ export interface Experience {
   accomplishments: string[];
   image: string;
   link: string;
+  projectpage: null | string;
   backgroundColor: string;
   workTerm: string;
   slug: string;

@@ -5,11 +5,15 @@ const ResumePage = () => {
     <div className={styles.layout}>
       <h1 className={styles.pageTitle}>
         My Resume
-        <a href="/resume/TylerYanResume.pdf" download className={styles.button}>
+        <a
+          href="/resume/TylerYan_SWE_Resume.pdf"
+          download
+          className={styles.button}
+        >
           Download PDF
         </a>
         <a
-          href="/resume/TylerYanResume.pdf"
+          href="/resume/TylerYan_SWE_Resume.pdf"
           target="_blank"
           rel="noopener noreferrer"
           className={styles.button}
@@ -21,7 +25,7 @@ const ResumePage = () => {
       <div className={styles.container}>
         <iframe
           className={styles.pdf}
-          src="/resume/TylerYanResume.pdf"
+          src="/resume/TylerYan_SWE_Resume.pdf"
           width="100%"
           height="800px"
         ></iframe>

@@ -11,14 +11,14 @@ const AboutPage = () => {
           <section className={styles.section}>
             <p className={styles.paragraph}>
               I am a 4th year Computer Engineering Student at the University of
-              Toronto. I enjoy learning in a fast-paced environment, and I have
-              been on the Dean&apos;s list every semester. I also enjoy
-              problem-solving and coding, and I always strive to put 110% into
-              all the work I do.
+              Toronto, graduating in April 2026. I enjoy learning in a
+              fast-paced environment, and I have been on the Dean&apos;s list
+              every semester. I also enjoy problem-solving and coding, and I
+              always strive to put 110% into all the work I do.
             </p>
             <p className={styles.paragraph}>
               I have worked with languages and technologies like Rust, Python,
-              C, C++, Java, HTML5, CSS, Swift, Assembly, Verilog, Flask,
+              C, C++, C#, Java, HTML5, CSS, Swift, Assembly, Verilog, Flask,
               PyTorch, MongoDB, and Bootstrap through internships, coursework at
               UofT, hackathons, and personal projects. I am passionate about
               software development with an interest in artificial intelligence
