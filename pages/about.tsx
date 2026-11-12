@@ -10,11 +10,11 @@ const AboutPage = () => {
         <div className={styles.aboutContent}>
           <section className={styles.section}>
             <p className={styles.paragraph}>
-              I am a 4th year Computer Engineering Student at the University of
-              Toronto, graduating in April 2026. I enjoy learning in a
-              fast-paced environment, and I have been on the Dean&apos;s list
-              every semester. I also enjoy problem-solving and coding, and I
-              always strive to put 110% into all the work I do.
+              I am a New Grad (April 2026) Computer Engineering Student from the
+              University of Toronto. I enjoy learning in a fast-paced
+              environment, and I have been on the Dean&apos;s list every
+              semester. I also enjoy problem-solving and coding, and I always
+              strive to put 110% into all the work I do.
             </p>
             <p className={styles.paragraph}>
               I have worked with languages and technologies like Rust, Python,
